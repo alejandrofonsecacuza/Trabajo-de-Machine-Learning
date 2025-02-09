@@ -34,7 +34,7 @@ pip install -r requirements.txt
 chest-xray-classification/
 ├── app/                     # Código fuente del proyecto
 │   ├── Visualizacion.ipynb
-│   ├── Descargar Dataset.ipynb
+│   ├── Descarga y preprocesamiento.ipynb
 │   ├── Creacion dataset y preprocesamiento.ipynb      
 │   ├── Entrenamiento.ipynb  
 │   └── Resultados.ipynb
