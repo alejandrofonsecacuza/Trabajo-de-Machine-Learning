@@ -5,7 +5,7 @@ FROM python:3.12.8-alpine
 WORKDIR /app
 
 # Copy all files from the current directory to /app in the container
-COPY . /app
+COPY ./app /app
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
